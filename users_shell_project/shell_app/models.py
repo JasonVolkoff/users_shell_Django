@@ -2,6 +2,8 @@ from django.db import models
 
 # Create your models here.
 
+# Model to test CRUD commands on
+
 
 class User(models.Model):
     first_name = models.CharField(max_length=255)
